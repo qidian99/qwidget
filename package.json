@@ -1,6 +1,6 @@
 {
   "name": "@qidian99/qwidget",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Web components, React, and Preact Widgets for animation and presentation",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
@@ -17,7 +17,12 @@
     "dev": "preact watch --template src/index.ejs --sw false",
     "lint": "eslint src/**/*.{ts,tsx}"
   },
-  "keywords": ["web components", "preact", "react", "animation"],
+  "keywords": [
+    "web components",
+    "preact",
+    "react",
+    "animation"
+  ],
   "author": "Dian Qi <qidian990107@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/qidian99/qwidget#readme",
