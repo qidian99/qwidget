@@ -8,8 +8,9 @@
   "source": "components/hello-world/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qidian99/counter.git"
+    "url": "git+https://github.com/qidian99/qwidget"
   },
+  "postinstall": "rm ./node_modules/native-url/dist/index.mjs",
   "scripts": {
     "test": "NODE_ENV=test jest",
     "build": "preact build --no-prerender --clean --template src/index.ejs --sw false",
@@ -19,6 +20,7 @@
   "keywords": ["web components", "preact", "react", "animation"],
   "author": "Dian Qi <qidian990107@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/qidian99/qwidget#readme",
   "devDependencies": {
     "eslint": "^6.8.0",
     "identity-obj-proxy": "^3.0.0",
